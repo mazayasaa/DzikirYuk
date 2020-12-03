@@ -10,7 +10,7 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         android:orientation="vertical"
         >
 
@@ -37,7 +37,7 @@
             android:alignmentMode="alignMargins"
             android:rowCount="2"
             android:columnCount="2"
-            android:layout_marginTop="50dp">
+            android:layout_marginTop="100dp">
 
             <androidx.cardview.widget.CardView
                 android:id="@+id/menuTasbih"
@@ -58,7 +58,7 @@
                     <ImageView
                         android:layout_width="130dp"
                         android:layout_height="130dp"
-                        android:src="@drawable/ic_tasbih1"/>
+                        android:src="@drawable/ic_tasbih"/>
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
