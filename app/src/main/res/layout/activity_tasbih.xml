@@ -6,32 +6,60 @@
     android:layout_height="match_parent"
     tools:context=".MenuTasbih">
 
-    <androidx.cardview.widget.CardView
+    <ImageView
+        android:layout_width="296dp"
+        android:layout_height="200dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="158dp"
+        android:src="@drawable/ic_kotak">
+    </ImageView>
+
+    <TextView
+        android:id="@+id/countView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:cardCornerRadius="15dp"
+        android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="150dp">
+        android:layout_marginTop="176dp"
+        android:text="0"
+        android:textColor="@android:color/white"
+        android:textSize="110sp"/>
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            >
+    <ImageView
+        android:id="@+id/btnCount"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="79dp"
+        android:src="@drawable/ic_btncount"
+        android:onClick="hitung"/>
 
-            <TextView
-                android:id="@+id/tasbihCount"
-                android:layout_width="296dp"
-                android:layout_height="200dp"
-                android:gravity="center"
-                android:background="@color/colorMenu"
-                android:text="0"
-                android:textColor="@android:color/white"
-                android:textSize="110sp"
-                />
+    <ImageView
+        android:id="@+id/btnBookmark"
+        android:layout_width="58dp"
+        android:layout_height="58dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="60dp"
+        android:layout_marginRight="60dp"
+        android:layout_marginBottom="97dp"
+        android:onClick="hitung"
+        android:src="@drawable/ic_btnbookmark" />
 
-        </LinearLayout>
-
-    </androidx.cardview.widget.CardView>
-
+    <ImageView
+        android:id="@+id/btnReset"
+        android:layout_width="58dp"
+        android:layout_height="58dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="295dp"
+        android:layout_marginBottom="97dp"
+        android:src="@drawable/ic_btnreset"
+        android:layout_alignParentRight="true" />
 
 </RelativeLayout>
