@@ -1,0 +1,16 @@
+package com.vokasi.dzikiryuk;
+
+import androidx.appcompat.app.AppCompatActivity;
+
+import android.os.Bundle;
+
+public class MenuTasbih extends AppCompatActivity {
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_count);
+
+        getSupportActionBar().hide();
+    }
+}
