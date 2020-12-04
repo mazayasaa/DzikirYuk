@@ -15,7 +15,7 @@ public class MenuTasbih extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_tasbih);
         mShowCount=findViewById(R.id.countView);
-
+        getSupportActionBar().setTitle("Tasbih");
     }
 
     public void hitung(View view) {
