@@ -24,4 +24,9 @@ public class MenuTasbih extends AppCompatActivity {
             mShowCount.setText(Integer.toString(mCount));
         }
     }
+
+    public void reset(View view) {
+        mCount=0;
+        mShowCount.setText(String.valueOf(mCount));
+    }
 }

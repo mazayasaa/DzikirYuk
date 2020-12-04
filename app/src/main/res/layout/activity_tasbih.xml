@@ -59,6 +59,7 @@
         android:layout_marginRight="295dp"
         android:layout_marginBottom="97dp"
         android:src="@drawable/ic_btnreset"
-        android:layout_alignParentRight="true"/>
+        android:layout_alignParentRight="true"
+        android:onClick="reset"/>
 
 </RelativeLayout>
