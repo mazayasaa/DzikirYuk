@@ -13,7 +13,7 @@ public class MenuTasbih extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_tasbih);
+        setContentView(R.layout.activity_menu_tasbih);
         mShowCount=findViewById(R.id.countView);
         getSupportActionBar().setTitle("Tasbih");
     }
