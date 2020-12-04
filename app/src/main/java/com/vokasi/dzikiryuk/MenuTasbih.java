@@ -19,9 +19,11 @@ public class MenuTasbih extends AppCompatActivity {
     }
 
     public void hitung(View view) {
-        mCount++;
-        if(mShowCount!=null){
-            mShowCount.setText(Integer.toString(mCount));
+        if (mCount < 1000){
+            mCount++;
+            if(mShowCount!=null){
+                mShowCount.setText(Integer.toString(mCount));
+            }
         }
     }
 
