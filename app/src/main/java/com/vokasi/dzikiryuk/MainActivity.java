@@ -24,5 +24,23 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
+        CardView menuDzikirPagi = findViewById(R.id.menuDzikirPagi);
+        menuDzikirPagi.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View view){
+                Intent intent = new Intent(MainActivity.this, MenuDzikirPagi.class);
+                startActivity(intent);
+            }
+        });
+
+        CardView menuDzikirPetang = findViewById(R.id.menuDzikirPetang);
+        menuDzikirPetang.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View view){
+                Intent intent = new Intent(MainActivity.this, MenuDzikirPetang.class);
+                startActivity(intent);
+            }
+        });
     }
 }

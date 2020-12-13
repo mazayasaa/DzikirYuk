@@ -9,7 +9,26 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MenuBookmark"></activity>
+        <activity android:name=".DzikirPagiDetails">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.vokasi.dzikiryuk.MenuDzikirPagi" />
+        </activity>
+        <activity android:name=".MenuDzikirPagi" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.vokasi.dzikiryuk.MainActivity" />
+        </activity>
+        <activity android:name=".DzikirPetangDetails">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.vokasi.dzikiryuk.MenuDzikirPetang" />
+        </activity>
+        <activity android:name=".MenuDzikirPetang">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.vokasi.dzikiryuk.MainActivity" />
+        </activity>
         <activity android:name=".MenuTasbih">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
