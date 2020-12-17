@@ -26,6 +26,7 @@ public class MenuDzikirPagi extends AppCompatActivity {
         ArrayAdapter<String> arrayAdapter=new ArrayAdapter<String>(this,
                 android.R.layout.simple_list_item_1,title);
         listView.setAdapter(arrayAdapter);
+        
 
         listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override

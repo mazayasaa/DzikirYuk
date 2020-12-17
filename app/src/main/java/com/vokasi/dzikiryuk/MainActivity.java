@@ -25,6 +25,15 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        CardView menuBookmark = findViewById(R.id.menuBookmark);
+        menuBookmark.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View view){
+                Intent intent = new Intent(MainActivity.this, MenuBookmark.class);
+                startActivity(intent);
+            }
+        });
+
         CardView menuDzikirPagi = findViewById(R.id.menuDzikirPagi);
         menuDzikirPagi.setOnClickListener(new View.OnClickListener(){
             @Override
