@@ -37,7 +37,6 @@
         android:layout_width="390dp"
         android:layout_height="0dp"
         android:layout_alignParentTop="true"
-
         android:layout_marginTop="112dp"
         android:src="@drawable/ic_vector_23"
         tools:ignore="MissingConstraints"
